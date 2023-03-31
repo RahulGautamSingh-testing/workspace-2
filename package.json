@@ -1,15 +1,13 @@
 {
-  "name": "workspace-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "abbrev": "^1.0.3",
-    "xmldoc": "^1.1.0"
-  }
+  "packageManager": "npm@8.19.4"
 }
