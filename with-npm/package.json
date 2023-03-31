@@ -9,5 +9,5 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint"
   },
-  "packageManager": "npm@8.19.4"
+  "packageManager": "npm@9.6.3"
 }
