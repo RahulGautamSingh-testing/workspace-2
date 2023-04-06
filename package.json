@@ -1,5 +1,7 @@
 {
     "name": "root-root",
     "version": "1.0.0",
-    "dependencies": {}
+     "dependencies": {
+    "@types/react-dom": "^17.0.11"
+  }
 }
