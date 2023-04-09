@@ -6,11 +6,12 @@ https://github.com/RahulGautamSingh/renovate/tree/feat/npm-workspaces dcab282
 ## Logs
 
 ```log
-DEBUG: Generating package-lock.json for . (repository=RahulGautamSingh-testing/20469, branch=renovate/autonumeric-4.x-lockfile)
-DEBUG: Spawning npm install to create ./package-lock.json (repository=RahulGautamSingh-testing/20469, branch=renovate/autonumeric-4.x-lockfile)
+Generating package-lock.json for with-npm (repository=RahulGautamSingh-testing/workspace-2, branch=renovate/react-monorepo)
+DEBUG: Spawning npm install to create with-npm/package-lock.json (repository=RahulGautamSingh-testing/workspace-2)
 ..
-DEBUG: Performing lockfileUpdate (npm-workspaces) (repository=RahulGautamSingh-testing/20469, branch=renovate/autonumeric-4.x-lockfile)
+DEBUG: Performing lockfileUpdate (npm-workspaces) (repository=RahulGautamSingh-testing/workspace-2)
+DEBUG: Performing lockfileUpdate (npm) (repository=RahulGautamSingh-testing/workspace-2, branch=renovate/react-monorepo)
 ..
-DEBUG: Executing command (repository=RahulGautamSingh-testing/20469, branch=renovate/autonumeric-4.x-lockfile)
-       "command": "npm install --package-lock-only --no-audit --ignore-scripts --workspace=apps/test-app autonumeric@4.8.1"
+DEBUG: Executing command (repository=RahulGautamSingh-testing/workspace-2, branch=renovate/react-monorepo)
+       "command": "npm install --package-lock-only --no-audit --ignore-scripts @types/react-dom@17.0.19"
 ```
